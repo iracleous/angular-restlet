@@ -1,0 +1,25 @@
+
+<form [formGroup]="form">
+	<table align="center" border="1">
+	 
+         <tr><td>name	</td> 
+             <td><input type="text" id="name" name="name" 
+                formControlName = "name"
+                >	</td>  </tr>
+        <tr><td>price	</td> 
+             <td> <input type="text" id="price"  name="price"
+                formControlName = "price"
+                >	</td>  </tr>
+        <tr><td>inventoryQuantity	</td> 
+             <td> <input type="text" 
+                id="inventoryQuantity"  name="inventoryQuantity"
+            formControlName = "inventoryQuantity"          
+                >	</td>  </tr>
+	 	
+		<tr><td>	
+             <button  (click)="clickSubmit()">Submit </button>
+ 	</table>
+
+</form>
+
+

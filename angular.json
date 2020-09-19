@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "crmD": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "crmD"
+    }
+  },
+  "defaultProject": "crmD",
+  "cli": {
+    "analytics": "aa719744-5747-4b56-b6f4-f3e1b3b1f172"
+  }
 }
